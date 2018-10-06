@@ -1,0 +1,28 @@
+{
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/TylerBarnes/close-pixelate/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Pixelate an image with <canvas> a la Chuck Close",
+  "homepage": "https://github.com/TylerBarnes/close-pixelate#readme",
+  "keywords": [
+    "canvas",
+    "javascript",
+    "art",
+    "image",
+    "manipulation"
+  ],
+  "license": "ISC",
+  "main": "close-pixelate.js",
+  "name": "close-pixelate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerBarnes/close-pixelate.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.0.0--beta"
+}
