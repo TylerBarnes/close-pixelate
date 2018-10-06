@@ -9,11 +9,6 @@
  * Licensed under MIT license
  */
 
-/*jshint asi: true, browser: true, eqeqeq: true, forin: false, immed: false, newcap: true, noempty: true, strict: true, undef: true */
-
-//
-"use strict";
-
 // util vars
 var TWO_PI = Math.PI * 2;
 var QUARTER_PI = Math.PI * 0.25;
@@ -26,8 +21,6 @@ function isArray(obj) {
 function isObject(obj) {
   return Object.prototype.toString.call(obj) === "[object Object]";
 }
-
-// var console = window.console;
 
 // check for canvas support
 var canvas = document.createElement("canvas");
@@ -65,9 +58,7 @@ ClosePixelation.prototype.render = function(options) {
   try {
     this.imgData = this.ctx.getImageData(0, 0, w, h).data;
   } catch (error) {
-    if (console) {
-      console.error(error);
-    }
+    console.error(error);
     return;
   }
 
@@ -159,5 +150,4 @@ HTMLImageElement.prototype.closePixelate = function(options) {
   return new ClosePixelation(this, options);
 };
 
-// put in global namespace
-// window.ClosePixelation = ClosePixelation;
+export default ClosePixelation;
