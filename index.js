@@ -3,6 +3,7 @@
  * http://desandro.com/resources/close-pixelate/
  * 
  * Developed by
+ * - Tyler Barnes http://tylerbarnes.ca
  * - David DeSandro  http://desandro.com
  * - John Schulz  http://twitter.com/jfsiii
  * 
