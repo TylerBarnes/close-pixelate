@@ -1,5 +1,5 @@
 /*!
- * Close Pixelate v2.0.00 beta
+ * Close Pixelate v3.0.00 beta
  * http://desandro.com/resources/close-pixelate/
  * 
  * Developed by
